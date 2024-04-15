@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Para ti preciosa &#x1F970</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="envelope-wrapper">
+        <div id="envelope" class="close">
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class="letter">
+                <div class="words line1"></div>
+                <div class="words line2"></div>
+                <div class="words line3"></div>
+                <div class="words line4"></div>
+            </div>
+            <div class="hearts">
+                <div class="heart a1"></div>
+                <div class="heart a2"></div>
+                <div class="heart a3"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="reset">
+        <CENter>
+            <p></p>
+        </CENter>
+        <button id="open">&#x2764<div class="heart a2"></div>
+            <div class="heart a1"></div>
+            <div class="heart a3"></div>
+            <div class="heart a2"></div>
+        </button>
+
+        <audio id="myAudio" src="Si no estás _viral _vida _mundo _fypシ゚ _letrasdecanciones---- _iñigoquintero _music(MP3_160K).mp3">
+        </audio>
+
+        <button id="playAudio" onclick="playAudio()">Para ti &#x1F970<div class="heart a2"></div></button>
+
+        <script>
+            function playAudio() {
+                var audio = document.getElementById("myAudio");
+                audio.play();
+            }
+        </script>
+
+
+
+        <center><img id="loveImage" src="frases-de-amor-tristes_ce2e26b7_230725124017_800x800.jpg" alt="Love image" style="display: none;"></center>
+
+        <script>
+            document.getElementById("playAudio").addEventListener("click", function() {
+                document.getElementById("loveImage").style.display = "block"; // Show image on music button click
+            });
+        </script>
+
+        <button id="reset">Cerrar</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
